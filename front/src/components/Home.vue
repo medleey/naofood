@@ -1,32 +1,55 @@
 <template>
-  <div>
-   
+  <div> 
+    <img src="/img/burger.jpeg">
+    <div class="container mx-auto text-center titles absolute">
+      <h1 class="font-bold text-4xl text-white">Naofood</h1>
+      <p class="bg-secondary p-4 text-white baseline">La nouvelle livraison éthique</p>
+    </div>
+    <section class="bg-primary p-4 flex flex-wrap justify-center items-center hot my-4 container mx-auto">
+      <div class="mr-4 space-y-2">
+        <h2 class="text-secondary font-bold">ZONE DE LIVRAISON - 2,5KM DEPUIS LE CENTRE</h2>
+        <p class="text-white">2,5km à vélo, c'est l'assurance d'un repas qui arrive CHAUD !</p>
+      </div>
+      <img src="/img/map.jpeg" class="map mt-4 md:mt-0">    
+    </section>
+
+    <New />
+
   </div>
 </template>
 
 <script>
+import New from './New.vue'
 export default {
   name: 'Home',
-  props: {
-    
+
+  components: {
+    New
   }
+  
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+  img{
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .baseline {
+    width: fit-content;
+    border-radius: 5px; 
+
+  }
+  .titles {
+    top: 200px
+  }
+  .hot{
+    border-radius: 20px;
+    max-width: 700px
+  }
+  .map{
+    width: 200px;
+  }
 </style>
