@@ -36,9 +36,13 @@ ul {
 }
 .btn{
     border-radius: 20px;
+    cursor: pointer; 
 }
 li {
   display: inline-block;
   margin: 0 10px;
+}
+a {
+  transition: 0.2s ease-out;
 }
 </style>

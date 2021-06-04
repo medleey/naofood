@@ -30,6 +30,7 @@
                       <a class="bg-primary text-white text-sm p-2 btn hover:bg-secondary hover:text-primary my-2">Voir la carte</a>
                     </div>
                 </div>
+                <a class="bg-secondary text-white text-sm p-2 btn hover:bg-primary hover:text-white my-2">Voir la carte</a>
             </div>
           </div>
         </div>
@@ -65,9 +66,13 @@ export default {
     border-top-right-radius: 20px;
   }
   .btn{
-  border-radius: 10px;
+    border-radius: 10px;
+    cursor: pointer;
   }
   .content{
     padding: 0 20px 0 0;
+  }
+  a {
+    transition: 0.2s ease-out;
   }
 </style>
