@@ -4,7 +4,7 @@
         <h2 class="font-bold text-xl text-secondary">LES NOUVEAUTÉS</h2>
         <p class="mb-4">Ils rejoignent l'aventure !</p>
         <div class="flex flex-wrap">
-          <div class="bg-gray-300 p-8 bg-card">
+          <div class="bg-gray-300 p-8 bg-card w-full">
               <div class="card bg-white p-4 text-center">
                   <img src="img/burger.jpeg">
                   <div class="content">
