@@ -1,9 +1,10 @@
 <template>
-  <div> 
-    <img src="/img/burger.jpeg">
-    <div class="container mx-auto text-center titles absolute">
-      <h1 class="font-bold text-4xl text-white">Naofood</h1>
-      <p class="bg-secondary p-4 text-white baseline">La nouvelle livraison éthique</p>
+    <div class="relative">
+      <img src="/img/burger.jpeg">
+      <div class="absolute inset-0 h-full w-full flex flex-col justify-center items-center bg-black bg-opacity-50">
+        <h1 class="font-bold text-4xl text-white">Naofood</h1>
+        <p class="bg-secondary p-4 text-white baseline">La nouvelle livraison éthique</p>
+      </div>
     </div>
     <section class="bg-primary p-4 flex flex-wrap justify-center items-center hot my-4 container mx-auto">
       <div class="mr-4 space-y-2">
@@ -15,7 +16,6 @@
 
     <New />
 
-  </div>
 </template>
 
 <script>
