@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div>
     <div class="flex justify-between items-center container mx-auto p-4">
         <img src="/img/logo-naofood.svg">
         <nav>

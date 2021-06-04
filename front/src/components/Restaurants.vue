@@ -1,12 +1,12 @@
 <template>
   <section class="container mx-auto m-8">
-      <h2 class="font-bold text-xl text-secondary">LES NOUVEAUTÉS</h2>
-      <p class="mb-4">Ils rejoignent l'aventure !</p>
+      <h2 class="font-bold text-xl text-secondary">BON ?! ET QU'EST-CE QU'ON MANGE ?</h2>
+      <p class="mb-4">Retrouvez notre sélection sur mesure de restaurants Nantais!</p>
       <div class="bg-gray-300 p-8 rounded-xl">
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div class="bg-white text-center w-full rounded-xl relative card">
             <div class="items-center flex">
-              <img src="img/burger.jpeg" class="bubble aboslute ml-4 object-cover">
+              <img src="img/burger.jpeg" class="bubble ml-4 object-cover">
               <img src="img/burger.jpeg" class="img-restau object-cover">
             </div>
             <div class="content p-4">
@@ -26,7 +26,7 @@
 
 <script>
 export default {
-  name: 'New',
+  name: 'Restaurants',
   
 }
 </script>
