@@ -1,7 +1,8 @@
 <template>
+<div class="w-full bg-secondary h-4"></div>
   <div class="bg-primary">
     <div class="flex flex-wrap justify-between items-start container mx-auto p-4">
-        <img src="/img/logo-naofood.svg">
+        <img src="/img/NaoBlanc.png">
             <div>
                 <h2>Réseaux sociaux</h2>
                 <ul class="flex space-x-4">

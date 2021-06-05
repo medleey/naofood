@@ -25,6 +25,7 @@
     <Restaurants />
     <Banner />
     <Actu />
+    <Partner />
   </div>
 </template>
 
@@ -35,6 +36,7 @@ import New from './New.vue'
 import Restaurants from './Restaurants.vue'
 import Banner from './Banner.vue'
 import Actu from './Actu.vue'
+import Partner from './Partner.vue'
 
 export default {
   name: 'Home',
@@ -43,7 +45,8 @@ export default {
     New,
     Restaurants,
     Banner,
-    Actu
+    Actu, 
+    Partner
   }
   
 }

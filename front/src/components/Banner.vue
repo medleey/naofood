@@ -1,7 +1,7 @@
 <template>
   <section>
     <img src="img/naofood-ban.jpeg">
-    <div class="container mx-auto mt-8">
+    <div class="container mx-auto mt-8 p-4">
         <h2 class="font-bold text-xl text-secondary">NOS VALEURS</h2>
         <p class="mb-4">Retrouvez notre sélection sur mesure de restaurants Nantais!</p>
 

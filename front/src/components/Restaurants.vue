@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto m-8">
+  <section class="container mx-auto m-8 p-4">
       <h2 class="font-bold text-xl text-secondary">BON ?! ET QU'EST-CE QU'ON MANGE ?</h2>
       <p class="mb-4">Retrouvez notre sélection sur mesure de restaurants Nantais!</p>
       <div class="bg-gray-300 p-8 rounded-xl">

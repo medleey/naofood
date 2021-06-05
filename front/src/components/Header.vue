@@ -14,8 +14,8 @@
         </nav>
         <a class="bg-primary text-white p-3 btn hover:bg-secondary hover:text-primary">Commander</a>
     </div>
+    <div class="w-full bg-secondary h-4"></div>
   </div>
-  
 </template>
 
 <script>
