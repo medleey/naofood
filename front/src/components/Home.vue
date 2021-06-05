@@ -1,6 +1,5 @@
 <template>
   <div>
-  
     <div class="relative">
       <img src="/img/burger.jpeg">
       <div class="absolute inset-0 h-full w-full flex flex-col justify-center items-center bg-black bg-opacity-50">

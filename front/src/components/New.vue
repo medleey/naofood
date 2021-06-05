@@ -19,7 +19,7 @@
             </div>
           </div>
         </div>
-        <a class="bg-secondary text-white text-sm p-2 btn hover:bg-primary hover:text-white mt-6 inline-block flex w-max m-auto">Voir tous les restaurants</a>
+        <a href="/NosRestaurants" class="bg-secondary text-white text-sm p-2 btn hover:bg-primary hover:text-white mt-6 inline-block flex w-max m-auto">Voir tous les restaurants</a>
       </div>
   </section>
 </template>

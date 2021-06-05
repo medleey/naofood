@@ -1,7 +1,7 @@
 <template>
   <section class="container mx-auto m-8 p-4">
-      <h2 class="font-bold text-xl text-secondary">BON ?! ET QU'EST-CE QU'ON MANGE ?</h2>
-      <p class="mb-4">Retrouvez notre sélection sur mesure de restaurants Nantais!</p>
+      <a href="/"><i class="fas fa-chevron-left mr-2 mb-6"></i>Retour</a>
+      <h2 class="font-bold text-xl mb-2 text-secondary uppercase">Nos Associations</h2>
       <div class="bg-gray-300 p-8 rounded-xl">
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div class="bg-white text-center w-full rounded-xl relative card">
@@ -11,22 +11,20 @@
             </div>
             <div class="content p-4">
               <h3 class="font-bold text-secondary text-lg mt-2">Nom restaurant</h3>
-              <h4>TYPE DE RESTAURANT</h4>
               <p class="mt-2 mb-4 text-sm">
                   Une rôtisserie dans un esprit streetfood qui vous propose des recettes savoureuses inspirées de la cuisine portugaise et espagnole
               </p>
-              <a class="bg-primary text-white text-sm p-2 btn hover:bg-secondary hover:text-primary my-2">Voir la carte</a>
+              <a class="bg-primary text-white text-sm p-2 btn hover:bg-secondary hover:text-primary my-2">Site web</a>
             </div>
           </div>
         </div>
-        <a href="/NosRestaurants" class="bg-secondary text-white text-sm p-2 btn hover:bg-primary hover:text-white mt-6 inline-block flex w-max m-auto">Voir tous les restaurants</a>
       </div>
   </section>
 </template>
 
 <script>
 export default {
-  name: 'Restaurants',
+  name: 'NosAssociations',
   
 }
 </script>

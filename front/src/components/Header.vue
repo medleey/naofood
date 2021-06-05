@@ -4,10 +4,10 @@
         <img src="/img/logo-naofood.svg">
         <nav>
             <ul>
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#">Nos restaurants</a></li>
-                <li><a href="#">Nos associations</a></li>
-                <li><a href="#">Nos partenaires</a></li>
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/NosRestaurants">Nos restaurants</a></li>
+                <li><a href="/NosAssociations">Nos associations</a></li>
+                <li><a href="/NosPartenaires">Nos partenaires</a></li>
                 <li><a href="#">Nos Coursiers Nao</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>

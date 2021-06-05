@@ -1,7 +1,7 @@
 <template>
   <section class="container mx-auto m-8 p-4">
-      <h2 class="font-bold text-xl text-secondary">BON ?! ET QU'EST-CE QU'ON MANGE ?</h2>
-      <p class="mb-4">Retrouvez notre sélection sur mesure de restaurants Nantais!</p>
+      <a href="/"><i class="fas fa-chevron-left mr-2 mb-6"></i>Retour</a>
+      <h2 class="font-bold text-xl mb-2 text-secondary uppercase">Nos restaurants</h2>
       <div class="bg-gray-300 p-8 rounded-xl">
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div class="bg-white text-center w-full rounded-xl relative card">
@@ -19,14 +19,13 @@
             </div>
           </div>
         </div>
-        <a href="/NosRestaurants" class="bg-secondary text-white text-sm p-2 btn hover:bg-primary hover:text-white mt-6 inline-block flex w-max m-auto">Voir tous les restaurants</a>
       </div>
   </section>
 </template>
 
 <script>
 export default {
-  name: 'Restaurants',
+  name: 'NosRestaurants',
   
 }
 </script>
