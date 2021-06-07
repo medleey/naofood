@@ -3,8 +3,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const path = require('path');
 
-const sauceRoutes = require('./routes/sauce_routes'); //en local
-const userRoutes = require('./routes/user_routes');
+const restauRoutes = require('./routes/restau_routes'); //en local
 
 require('dotenv-expand')(require('dotenv').config()); // in just single line
 mongoose.connect( //permet de se connecter à mongoose 
@@ -32,11 +31,10 @@ app.use(bodyParser.json()); //fichier de configuration
 
 app.use('/images', express.static(path.join(__dirname, 'images')));
 
-app.use('/api/sauces', sauceRoutes);
-app.use('/api/auth', userRoutes);
+app.use('/api/restau', restauRoutes);
 
 module.exports = app;
 
 //mettre les actions dans sauce controller, remplacer app par export (export.put) - 
-//tester les routes pour vérifier avec l'app en front end, 1er le crud (lire, modifer, supprimer) - créer le dossier User
+//tester les routes pour vérifier avec l'app en front end, 1er le crud (lire, modifer, supprimer)
 //pour écrire sur BDD c'est SQL (mongoose s'en occupe, il le traduit)
