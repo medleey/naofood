@@ -3,8 +3,8 @@
       <a href="/"><i class="fas fa-chevron-left mr-2 mb-6"></i>Retour</a>
       <h2 class="font-bold text-xl mb-2 text-secondary uppercase">Nos restaurants</h2>
       <div class="bg-gray-300 p-8 rounded-xl">
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div class="bg-white text-center w-full rounded-xl relative card">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 ">
+          <div class="bg-white text-center w-full rounded-xl mx-auto relative card">
             <div class="items-center flex">
               <img src="img/burger.jpeg" class="bubble ml-4 object-cover">
               <img src="img/burger.jpeg" class="img-restau object-cover">

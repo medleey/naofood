@@ -9,13 +9,13 @@
     </div>
 
     <section class="bg-primary p-4 flex flex-wrap justify-center items-center w-full">
-      <div class="mr-4 space-y-2 text-center">
+      <div class="md:mr-4 space-y-2 text-center">
         <div class="flex items-center">
           <i class="fas fa-biking text-secondary mr-2 text-2xl"></i>
           <h2 class="text-secondary font-bold">ZONE DE LIVRAISON - 2,5KM DEPUIS LE CENTRE</h2>
         </div>
         <p class="text-white pb-4">2,5km à vélo, c'est l'assurance d'un repas qui arrive CHAUD !</p>
-        <a class="bg-secondary text-white p-2 btn">Commander</a>
+        <a href="https://naofood.coopcycle.org/fr/restaurants" class="bg-secondary text-white p-2 btn">Commander</a>
       </div>
       <img src="/img/map.jpeg" class="map mt-6 md:mt-0">    
     </section>

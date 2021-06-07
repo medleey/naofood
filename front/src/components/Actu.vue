@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container mx-auto p-4">
+    <section class="container mx-auto p-4">
         <h2 class="font-bold text-xl text-secondary pb-2">L'ACTU NAOFOOD</h2>
         <div class="bg-secondary container mx-auto p-4 rounded-xl">
             <a href="#" class="pointer">
@@ -25,7 +25,7 @@
                 </div>
             </a>
         </div>
-    </div>
+    </section>
   </div>
   
 </template>

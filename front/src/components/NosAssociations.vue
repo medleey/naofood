@@ -4,7 +4,7 @@
       <h2 class="font-bold text-xl mb-2 text-secondary uppercase">Nos Associations</h2>
       <div class="bg-gray-300 p-8 rounded-xl">
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div class="bg-white text-center w-full rounded-xl relative card">
+          <div class="bg-white text-center w-full rounded-xl mx-auto relative card">
             <div class="items-center flex">
               <img src="img/burger.jpeg" class="bubble ml-4 object-cover">
               <img src="img/burger.jpeg" class="img-restau object-cover">
@@ -14,7 +14,7 @@
               <p class="mt-2 mb-4 text-sm">
                   Une rôtisserie dans un esprit streetfood qui vous propose des recettes savoureuses inspirées de la cuisine portugaise et espagnole
               </p>
-              <a class="bg-primary text-white text-sm p-2 btn hover:bg-secondary hover:text-primary my-2">Site web</a>
+              <a href="#" class="bg-primary text-white text-sm p-2 btn hover:bg-secondary hover:text-primary my-2">Site web</a>
             </div>
           </div>
         </div>

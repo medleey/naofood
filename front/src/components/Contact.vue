@@ -6,13 +6,13 @@
         Posez-nous votre question nous vous répondrons dès que possible !<br> 
         Si votre question concerne une commande en cours contactez-nous au 06 73 22 79 11
         </p>
-      <div class="rounded-xl">
+      <div class="rounded-xl form mx-auto">
         <h2 class="bg-gray-300 p-4 font-bold text-xl">Formulaire de contact</h2>
         <div>
           <div class=" p-4 justify-around card flex">
-            <img src="img/panda.png" class="bubble object-cover md:mr-4">
+            <img src="img/panda.png" class="bubble object-cover">
             <form>
-                <div class="grid md:grid-cols-2 w-full space-x-2">
+                <div class="grid md:grid-cols-2 w-full md:space-x-2">
                     <div class="flex flex-col">
                         <label for="name">Prénom</label>
                         <input type="text" id="name" name="name" required class="border-2 rounded-md">
@@ -74,5 +74,8 @@ export default {
   .bubble {
     height: 140px;
     width: 140px;
+  }
+  .form {
+    max-width: 700px;
   }
 </style>
