@@ -4,7 +4,7 @@
       <p class="mb-4">Ils rejoignent l'aventure !</p>
       <div class="bg-gray-300 p-8 rounded-xl">
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <Restaurant v-for="restaurant in restaurants" :key="restaurant.id" :restaurant="restaurant"/>
+          <Restaurant v-for="restaurant in newRestaurants" :key="restaurant.id" :restaurant="newRestaurant"/>
         </div>
         <a href="/NosRestaurants" class="bg-secondary text-white text-sm p-2 btn hover:bg-primary hover:text-white mt-6 inline-block flex w-max m-auto">Voir tous les restaurants</a>
       </div>
@@ -23,15 +23,15 @@ export default {
   },
   data(){
     return {
-      restaurants: null
+      restaurants: null,
+      newRestaurants: null
     }
   },
 
   mounted() {
-    axios.get("http://localhost:3000/api/restau/").then((response) => {
-      this.restaurants = response.data
+    axios.get("http://localhost:3000/api/restau/new").then((response) => {
+      this.newRestaurants = response.data
     });
-    
   }
   
 }

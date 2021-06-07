@@ -29,8 +29,6 @@
 </template>
 
 <script>
-import axios from 'axios'
-
 import New from './New.vue'
 import Restaurants from './Restaurants.vue'
 import Banner from './Banner.vue'
@@ -39,12 +37,6 @@ import Partner from './Partner.vue'
 
 export default {
   name: 'Home',
-  data(){
-    return {
-      restaurants: null
-    }
-  },
-
   components: {
     New,
     Restaurants,
@@ -53,9 +45,6 @@ export default {
     Partner
   },
   mounted() {
-    axios.get("http://localhost:3000/api/restau/").then((response) => {
-      this.restaurants = response.data
-    });
   }
   
 }
