@@ -15,7 +15,8 @@ exports.getAllRestau = (req, res, next) => { //req = request, res = response
 exports.getAllNewRestau = (req, res, next) => { //req = request, res = response 
   console.log('prout')
   db.restau.findAll({
-    order: [['createdAt', 'DESC']]
+    order: [['createdAt', 'DESC']],
+    limit: 3
     
   })
     .then(restaus => res.status(200).json(restaus))

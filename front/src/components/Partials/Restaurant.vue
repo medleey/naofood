@@ -10,7 +10,7 @@
       <p class="mt-2 mb-4 text-sm">
           {{restaurant.description}}
       </p>
-      <a class="bg-primary text-white text-sm p-2 btn hover:bg-secondary hover:text-primary my-2">Voir la carte</a>
+      <a :href="restaurant.link" class="bg-primary text-white text-sm p-2 btn hover:bg-secondary hover:text-primary my-2">Voir la carte</a>
     </div>
   </div>
 </template>

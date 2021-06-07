@@ -27,7 +27,7 @@ export default {
   },
   
   mounted() {
-    axios.get("http://localhost:3000/api/restau/3").then((response) => {
+    axios.get("http://localhost:3000/api/restau/6").then((response) => {
       this.restaurants = response.data
     });
     
