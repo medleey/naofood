@@ -6,7 +6,7 @@ const restau = require('./restau_routes');
 const multer = require('../middleware/multer-config');
 
 router.get('/', restauCtrl.getAllRestau);
-router.get('/:id', restauCtrl.getOneSauce);
+router.get('/:id', restauCtrl.getOneRestau);
 
 
 

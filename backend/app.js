@@ -1,22 +1,15 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const mongoose = require('mongoose');
 const path = require('path');
+const { Sequelize } = require('sequelize');
 
 const restauRoutes = require('./routes/restau_routes'); //en local
 
 require('dotenv-expand')(require('dotenv').config()); // in just single line
-mongoose.connect( //permet de se connecter à mongoose 
-  process.env.DB_HOST,
-  //'mongodb+srv://AliceCoisne_P6_OC:GrIw3e@cluster0.myt7k.mongodb.net/<dbname>?retryWrites=true&w=majority',
-  { useNewUrlParser: true, useUnifiedTopology: true })
-  .then(() => {
-    console.log('Successfully connected to MongoDB Atlas!');
-  })
-  .catch((error) => {
-    console.log('Unable to connect to MongoDB Atlas!');
-    console.error(error);
-  });
+const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PASS,{ 
+  host: process.env.DB_HOST,
+  dialect: 'mysql' /* one of 'mysql' | 'mariadb' | 'postgres' | 'mssql' */
+});
 
 const app = express();
 
